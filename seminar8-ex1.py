@@ -5,15 +5,25 @@
 
 import numpy as np
 import math
+from matplotlib import pyplot as plt
 
 z = np.arange(1, 21, 1).reshape(4, 5)
 
-# Output of the results
-print('Shape of z: ', z.shape)
-print('Length of z: ', z.size)
-
-print(np.linspace(1, 5, 10))
-
 x = np.linspace(0, 2 * math.pi, 1000)
 
-print(x)
+ls = np.linspace(1, 5, 10)
+
+y = []
+for i in x:
+    y.append(math.sin(i))
+
+
+print('Shape of z: ', z.shape)
+print('Length of z: ', z.size)
+print('Array x: ', x)
+print('10 numbers between 1 - 5: ', ls)
+print('Array y: ', y)
+
+plt.plot(x, y)
+plt.grid()
+plt.show()
