@@ -19,3 +19,4 @@ _(you can install them through pip)_
 
 - Numpy
 - Math
+- Matplotlib
