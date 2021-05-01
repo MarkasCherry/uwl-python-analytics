@@ -1,4 +1,4 @@
-# Seminar 8, Exercise 1, Databases and Analytics (CP60056E)
+# Seminar 8, Databases and Analytics (CP60056E)
 # University of West London
 # Assignment 2
 # Markas Vysniauskas (21372173)
