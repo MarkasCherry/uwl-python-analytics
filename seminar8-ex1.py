@@ -20,8 +20,8 @@ for i in x:
 
 print('Shape of z: ', z.shape)
 print('Length of z: ', z.size)
-print('Array x: ', x)
 print('10 numbers between 1 - 5: ', ls)
+print('Array x: ', x)
 print('Array y: ', y)
 
 plt.plot(x, y)
