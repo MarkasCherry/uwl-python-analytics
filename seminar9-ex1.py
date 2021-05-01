@@ -3,8 +3,6 @@
 # Assignment 2
 # Markas Vysniauskas (21372173)
 
-# Exercise 1 tasks and outputs:
-
 import pandas as pd
 
 # Create a dictionary with student details
