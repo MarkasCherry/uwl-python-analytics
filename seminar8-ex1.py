@@ -9,9 +9,9 @@ from matplotlib import pyplot as plt
 
 z = np.arange(1, 21, 1).reshape(4, 5)
 
-x = np.linspace(0, 2 * math.pi, 1000)
-
 ls = np.linspace(1, 5, 10)
+
+x = np.linspace(0, 2 * math.pi, 1000)
 
 y = []
 for i in x:
