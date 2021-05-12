@@ -23,3 +23,4 @@ _(you can install them through pip)_
 - Math
 - Matplotlib
 - Pandas
+- Sklearn
